@@ -1,0 +1,46 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="creeperinstaboomhard"
+version="1.1.1"
+displayName="Creeper Insta Boom"
+logoFile="icon.png"
+authors="Tontoque28"
+description='''
+Creepers explode instantly on contact. No fuse. No stopping.
+
+NEW: Dynamic Difficulty Selection!
+Use /creeperdifficulty <easy|normal|hard> to change the mode in real-time.
+
+- EASY: Fast Creepers (1.2x), No Charged, No Alpha.
+- NORMAL: Faster Creepers (1.4x), Moderate Charged, No Alpha.
+- HARD: Insane Speed (1.5x+), High Charged, Alphas Active. (Default)
+
+Features:
+- INSTANT EXPLOSION: Creepers explode immediately upon contact (4.0 blocks radius).
+- NO FUSE TIME: No hissing warning.
+- NO STOPPING: Creepers never stop to swell.
+- EXTREME SPEED: Up to x2.25 speed in Hard mode.
+- LETHAL DAMAGE: Up to x8 Vanilla Power + 60% Armor Piercing in Hard mode.
+- EAGLE EYE: 64 Blocks Follow Range.
+- CHARGED CREEPERS: Spawn naturally at night (Normal/Hard).
+- ALPHA CREEPERS: Glowing, 40HP, massive explosion (Hard only).
+- NO FIRE: Explosions do not generate fire to prevent unwanted griefing.
+- COMPATIBILITY: Works with other mods (e.g., Creeper Overhaul) by forcing "Insta Boom" behavior.
+'''
+
+[[dependencies.creeperinstaboomhard]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.creeperinstaboomhard]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
