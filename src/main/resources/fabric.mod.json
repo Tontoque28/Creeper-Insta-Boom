@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "creeperinstaboomhard",
+  "version": "${version}",
+  "name": "Creeper Insta Boom",
+  "description": "Creepers explode instantly on contact. Now with dynamic difficulty selection.",
+  "authors": ["Tontoque28"],
+  "license": "All Rights Reserved",
+  "icon": "assets/creeperinstaboomhard/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tontoque28.creeperinstaboomhard.CreeperInstaBoomHard"]
+  },
+  "mixins": ["creeperinstaboomhard.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
