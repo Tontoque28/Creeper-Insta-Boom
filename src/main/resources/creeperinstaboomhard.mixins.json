@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.tontoque28.creeperinstaboomhard.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": ["CreeperMixin", "GoalSelectorAccessor", "ServerLevelMixin", "MobAccessor"],
+  "injectors": {"defaultRequire": 1}
+}
